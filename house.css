@@ -1,0 +1,195 @@
+.nav__button {
+    margin-left: 3rem;
+}
+
+.grid  {
+  display: grid;
+}
+
+
+@media screen and (max-width: 1024px) {
+.nav__menu {
+    display: none; 
+}
+}  
+
+.main {
+  overflow: hidden;
+}
+
+
+.swiper {
+    width: 50%;
+    height: 50% ;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 150% !important;
+    height: 100%;
+    object-fit: cover !important;
+  }
+
+  .swiper__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .swiper__bottom-description p {
+    font-size: 12px;
+  }
+  .swiper__bottom-icon i {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .swiper__bottom-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .bathtub img {
+    filter: invert(100%);
+    margin-bottom: 0.5rem;
+  }
+
+
+  /* -----------------------------------------Details------------------------------------ */
+  .details__wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+  }
+  .details__wrapper {
+    justify-content: center;
+  }
+  .details__title {
+    color: #CD7F47;
+  }
+  .box__details h3 {
+    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+  }
+  .box__details p {
+    margin-left: 1rem;
+  }
+  .details__wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  /* -----------------------------------------Description------------------------------------ */
+  .description2,
+  .description3 {
+    margin-top: 2rem;
+  }
+
+.details__contact {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details__button {
+  color: #fff;
+}
+
+
+  /* -----------------------------------------Location------------------------------------ */
+
+  iframe {
+    width: 100%;
+    filter: invert(100%);
+  }
+  .map__button {
+    color: #fff;
+  }
+  .map {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .location__desciption{
+    margin-top: 2rem;
+  }
+
+
+  .footer__container {
+    margin-top: 8rem;
+  }
+
+
+
+  
+  /* -----------------------------------------Breakpoints------------------------------------ */
+  
+  @media screen and (max-width: 350px) {
+    .swiper__bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .details__wrapper1 {
+      display: grid;
+      grid-template-columns: repeat(2, 350px);
+    }
+  }
+  
+  
+  @media screen and (min-width: 600px) {
+    .swiper__bottom {
+      padding: 0 5rem;
+    }
+
+    .details__wrapper1 {
+      display: grid;
+      grid-template-columns: repeat(2, 350px);
+    }
+  }
+  
+  @media screen and (min-width: 767px) {
+    .swiper__bottom {
+      padding: 0 6rem;
+    }
+
+    .details__wrapper1 {
+      display: grid;
+      grid-template-columns: repeat(2, 380px);
+      padding: 0 5rem;
+    }
+    .details__wrapper2 {
+      padding: 0 5rem;
+    }
+  } 
+
+  @media screen and (min-width: 1025px) {
+    .swiper__bottom {
+      padding: 0 8rem;
+    }
+
+    .details__wrapper1 {
+      display: grid;
+      grid-template-columns: repeat(2, 450px);
+      padding: 0 8rem;
+    }
+    .details__wrapper2 {
+      padding: 0 8rem;
+    }
+  }
+
+
+  

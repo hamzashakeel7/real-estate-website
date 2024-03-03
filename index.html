@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+  
+    <!--------------------------------------------- navbar-------------------------------------- -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                    Realtors <i class="ri-home-2-fill"></i>
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-2-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">
+                            <i class="ri-building-line"></i>
+                            <span>Residencies</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link">
+                            <i class="ri-award-fill"></i>
+                            <span>Value</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-phone-line"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- change theme color -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <a href="contact.html" target="_blank" class="button nav__button">
+                Subscribe
+            </a>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+
+        <!-- -----------------------------------Home------------------------------------------ -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Discover <br> Most Suitable <br> Properties
+                    </h1>
+                    <p class="home__description">
+                        Find a variety of properties that suits your needs,
+                        Forget all the hassle in finding a residence for yourself.
+                    </p>
+
+                    <form action="" class="home__search">
+                        <i class="ri-map-pin-line"></i>
+                        <input type="search" placeholder="Search by location" class="home__search-input">
+                        <button class="button">Search</button>
+                    </form>
+
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                9k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Premium <br> Products
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                2k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Happy <br> Customers
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                28k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Positive <br> Reviews
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <img src="images/home2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <!-- -----------------------------------Popular------------------------------------------ -->
+        <section class="popular section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">Best choice</span>
+                <h2 class="section__title">
+                    Popular Residencies <span>.</span>
+                </h2>
+
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <img src="images/home1.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>PKR</span> 20,000,000
+                                </h2>
+                                <h3 class="popular__title">
+                                     Karachi, Bharia housing
+                                </h3>
+                                <p class="popular__description">
+                                   5 Bedrooms with open kitchen. Fully furnished, recently painted,
+                                   and all wooden. Small pool in the garden to give the house an 
+                                   asthetic look.  
+                                </p>
+                            </div>
+                            <a href="house-1.html" target="_blank" class="button popular__button">View more</a>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="images/r1.webp" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>PKR</span> 90,000,000
+                                </h2>
+                                <h3 class="popular__title">
+                                     Karachi, Bharia housing
+                                </h3>
+                                <p class="popular__description">
+                                   5 Bedrooms with open kitchen. Fully furnished, recently painted,
+                                   and all wooden. Small pool in the garden to give the house an 
+                                   asthetic look.  
+                                </p>
+                            </div>
+                            <a href="house-2.html" target="_blank" class="button popular__button">View more</a>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="images/r2.webp" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>PKR</span> 5,000,000
+                                </h2>
+                                <h3 class="popular__title">
+                                     Karachi, Bharia housing
+                                </h3>
+                                <p class="popular__description">
+                                   5 Bedrooms with open kitchen. Fully furnished, recently painted,
+                                   and all wooden. Small pool in the garden to give the house an 
+                                   asthetic look.  
+                                </p>
+                            </div>
+                            <a href="#" class="button popular__button">View more</a>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="images/r3.webp" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>PKR</span> 80,000,000
+                                </h2>
+                                <h3 class="popular__title">
+                                     Karachi, Bharia housing
+                                </h3>
+                                <p class="popular__description">
+                                   5 Bedrooms with open kitchen. Fully furnished, recently painted,
+                                   and all wooden. Small pool in the garden to give the house an 
+                                   asthetic look.  
+                                </p>
+                            </div>
+                            <a href="#" class="button popular__button">View more</a>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="images/r4.webp" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>PKR</span> 30,000,000
+                                </h2>
+                                <h3 class="popular__title">
+                                     Karachi, Bharia housing
+                                </h3>
+                                <p class="popular__description">
+                                   5 Bedrooms with open kitchen. Fully furnished, recently painted,
+                                   and all wooden. Small pool in the garden to give the house an 
+                                   asthetic look.  
+                                </p>
+                            </div>
+                            <a href="#" class="button popular__button">View more</a>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="images/r5.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>PKR</span> 10,000,000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Karachi, Bharia housing
+                                </h3>
+                                <p class="popular__description">
+                                   5 Bedrooms with open kitchen. Fully furnished, recently painted,
+                                   and all wooden. Small pool in the garden to give the house an 
+                                   asthetic look.  
+                                </p>
+                            </div>
+                            <a href="#" class="button popular__button">View more</a>
+                        </article>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <!-- -----------------------------------Value------------------------------------------ -->        
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
+                    <div class="value__orbe"></div>
+
+                    <div class="value__img">
+                        <img src="images/value1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Our Value</span>
+                        <h2 class="section__title">
+                            Value We Serve To You<span>.</span>
+                        </h2>
+                        <p class="value__description">
+                            We are always eager to help by providing the best services for you.
+                            We believe that a good place to live can make your life better.
+                        </p>
+                    </div>
+
+                    <!-- accordion started -->
+                    <div class="value__accordion">
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="ri-shield-cross-fill value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Best negiotiable price rates in the market.
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="ri-arrow-down-s-fill"></i> 
+                                </div>
+                            </header>
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    The price we provide is the best for you,
+                                    Quality residence with affordable prices.
+                                </p>
+                            </div>
+                        </div>  
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <iconify-icon icon="ph:x-square-fill" class="value__accordion-icon"></iconify-icon>
+                                <h3 class="value__accordion-title">
+                                    Prevent unstable prices
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="ri-arrow-down-s-fill"></i> 
+                                </div>
+                            </header>
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    We have quiet the same stagnant price rates and 
+                                    these rates donot fluctuate as much. We try to keep
+                                    the prices as reasonable as possible.
+                                </p>
+                            </div>
+                        </div>  
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="ri-bar-chart-box-fill value__accordion-icon"></i> 
+                                <h3 class="value__accordion-title">
+                                    Best prices on the market
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="ri-arrow-down-s-fill"></i> 
+                                </div>
+                            </header>
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Our price rates are well below the market prices.
+                                    We do our best to provide the best rates to our 
+                                    clients.  
+                                </p>
+                            </div>
+                        </div>  
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="ri-checkbox-fill value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Security of your data
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="ri-arrow-down-s-fill"></i> 
+                                </div>
+                            </header>
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Clients data is well secured in our company.
+                                    We never ask for clients sensitive data. Our company
+                                    have regular security audits. We also offer the 
+                                    strong customer support. Your data is always
+                                    our secret.
+                                </p>
+                            </div>
+                        </div>  
+
+                    </div>
+                    <a href="certificates.html" target="_blank" class="button value__button">
+                        Our certificates
+                    </a>
+                </div>
+            </div>
+        </section>        
+
+
+        <!-- -----------------------------------contact------------------------------------------ -->      
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe"></div>
+
+                    <div class="contact__img">
+                        <img src="images/contact1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contact Us</span>
+                        <h2 class="section__title">
+                            Guidance to your residence<span>.</span>
+                        </h2>
+                        <p class="contact__description">
+                            Problem in finding your dream house? Need a guide in buying your first 
+                            home? or need a consultation on residential issues? Just contact us.
+                        </p>
+                    </div>
+
+                    <div class="contact__card">
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="ri-phone-fill"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Call
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        03353036639
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                Call now
+                            </button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="ri-message-fill"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Chat
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        03353036639 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                Chat Now
+                            </button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="ri-mail-send-fill"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Send us a mail
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        <!-- hamzashakeel <span>durrani</span> <span>77@gmail.com</span>  -->
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                <a href="contact.html">Mail Us </a>
+                            </button>
+                        </div>
+                        
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="ri-mail-unread-fill"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Message 
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        03353036639
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                <a href="contact.html"> Message Now </a>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- -----------------------------------views------------------------------------------ -->    
+        <section class="view__section section" id="views-section">
+            <div class="container">
+                <span class="section__subtitle">Testimonials</span>
+                <h2 class="section__title">Our clients reviews<span>.</span></h2>
+                <div class="popular">
+                    <div class="swiper views__swiper">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper__client-msg">
+                                        <p>
+                                            Super work from realtors team. I found my residence
+                                            in an exquisite place. The team was very helpful and easy to 
+                                            communicate. An absolute trustful company. 
+                                        </p>
+                                    </div>
+                                    <div class="swiper__client-data grid">
+                                        <div>
+                                            <img src="images/man face.jpg" alt="">
+                                        </div>
+                                        <div class="client-data">
+                                            <p class="views__data2">Haroon Durrani</p>
+                                            <p class="views__data1">Client</p>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper__client-msg">
+                                    <p>
+                                        We were first-time homebuyers and had lots of questions. Realtors 
+                                        patiently answered all our queries and helped us find a home that met all our requirements.
+                                        Their dedication to their clients is evident in every interaction.
+                                    </p>
+                                </div>
+                                <div class="swiper__client-data grid grid-two-column">
+                                    <figure>
+                                        <img src="images/confident-attractive-caucasian-guy-beige-pullon-smiling-broadly-while-standing-against-gray (1).jpg" alt="">
+                                    </figure>
+                                    <div class="client-data">
+                                        <p class="views__data2">Abdullah Khan</p>
+                                        <p class="views__data1">Client</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper__client-msg">
+                                    <p>
+                                        Working with Realtors was a fantastic experience. 
+                                        Their team was incredibly knowledgeable and guided us through
+                                         the entire home-buying process. 
+                                        They found us the perfect house within our budget. Highly recommended!
+                                    </p>
+                                </div>
+                                <div class="swiper__client-data grid grid-two-column">
+                                    <figure>
+                                        <img src="images/face2.jpg" alt="">
+                                    </figure>
+                                    <div class="client-data">
+                                        <p class="views__data2">Mashal Khan</p>
+                                        <p class="views__data1">Client</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper__client-msg">
+                                    <p>
+                                        I can't thank Realtors enough for helping me sell my home quickly 
+                                        and at a great price. Their expertise in the market and marketing strategies were 
+                                        outstanding. The entire team was responsive and professional throughout.
+                                    </p>
+                                </div>
+                                <div class="swiper__client-data grid grid-two-column">
+                                    <figure>
+                                        <img src="images/face3.jpg" alt="">
+                                    </figure>
+                                    <div class="client-data">
+                                        <p class="views__data2">Shaista Akber</p>
+                                        <p class="views__data1">Client</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper__client-msg">
+                                    <p>
+                                        We recently used Realtors to find a rental property, and they made the process smooth
+                                         and stress-free. Their attention to detail and personalized service were exceptional.
+                                          We're thrilled with our new place!
+                                    </p>
+                                </div>
+                                <div class="swiper__client-data grid grid-two-column">
+                                    <figure>
+                                        <img src="images/face4.jpg" alt="">
+                                    </figure>
+                                    <div class="client-data">
+                                        <p class="views__data2">Syed Ali Hashmi</p>
+                                        <p class="views__data1">Client</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper__client-msg">
+                                    <p>
+                                        I had a unique property that I was struggling to sell for months. 
+                                        Realtors took on the challenge and managed to find the right buyer 
+                                        in record time. Their expertise and persistence made all the difference.
+                                    </p>
+                                </div>
+                                <div class="swiper__client-data grid grid-two-column">
+                                    <figure>
+                                        <img src="images/face5.jpg" alt="">
+                                    </figure>
+                                    <div class="client-data">
+                                        <p class="views__data2">Hamza Durrani</p>
+                                        <p class="views__data1">Client</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper__client-msg">
+                                    <p>
+                                        From the initial consultation to closing, Realtors provided a seamless home-selling
+                                         experience. Their negotiation skills and market knowledge resulted in a great 
+                                         sale price. I couldn't be happier with the outcome.
+                                    </p>
+                                </div>
+                                <div class="swiper__client-data grid grid-two-column">
+                                    <figure>
+                                        <img src="images/face6.jpg" alt="">
+                                    </figure>
+                                    <div class="client-data">
+                                        <p class="views__data2">Huan Chen</p>
+                                        <p class="views__data1">Client</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper__client-msg">
+                                    <p>
+                                        The team at Realtors exceeded our expectations. 
+                                        They went above and beyond to find our dream home, negotiated a fair deal, 
+                                        and even helped us with post-purchase recommendations. We couldn't have asked 
+                                        for more.
+                                    </p>
+                                </div>
+                                <div class="swiper__client-data grid grid-two-column">
+                                    <figure>
+                                        <img src="images/face7.jpg" alt="">
+                                    </figure>
+                                    <div class="client-data">
+                                        <p class="views__data2">Wali Kazmi</p>
+                                        <p class="views__data1">Client</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <div class="swiper__client-msg">
+                                    <p>
+                                        I had a tight budget, and Realtors worked tirelessly 
+                                        to find options that fit my financial constraints. They're a dedicated team 
+                                        that truly cares about their clients' needs.
+                                    </p>
+                                </div>
+                                <div class="swiper__client-data grid grid-two-column">
+                                    <figure>
+                                        <img src="images/face8.webp" alt="">
+                                    </figure>
+                                    <div class="client-data">
+                                        <p class="views__data2">Imran Khan</p>
+                                        <p class="views__data1">Client</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- -----------------------------------Subscribe------------------------------------------ -->
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    Get Started With Realtors
+                </h1>
+                <p class="subscribe__description">
+                    Subscribe and find super attractive price quotes and 
+                    discounts from our team, Determine your residence immediately
+                </p>
+                <a href="contact.html" target="_blank" class="button button__subscribe">
+                    Get Started
+                </a>
+            </div>
+        </section>
+
+    </main> 
+
+
+        <!-- -----------------------------------Footer------------------------------------------ -->
+
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Realtors <i class="ri-home-2-fill"></i>
+                    </a>
+                    <p class="footer__description">
+                        Our vision is to provide our people <br>
+                        the best place to live.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            About
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Company
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">How we work?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Capital</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Security</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Support
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Support Center</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Follow Us
+                        </h3>
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-facebook-circle-fill"></i>    
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.zameen.com/Homes/Karachi-2-1.html?agent_id=162470&types=all&property_status=available" target="_blank" class="footer__social-link">
+                                <img src="images/zameen.png" class="zameen" alt="">
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Realtors. All rights reserved 
+                </span>
+
+                <div class="footer__privacy">
+                    <a href="#">Terms & Agreements</a>
+                    <a href="#">Privicy Policy</a>
+                </div> 
+            </div>
+        </footer>
+
+
+        <!-- show scroll up -->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-double-line"></i>
+        </a>
+
+
+    
+    
+
+    <script src="scrollreveal.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
